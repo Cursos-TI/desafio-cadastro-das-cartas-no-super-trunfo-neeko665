@@ -38,4 +38,3 @@ printf("A quantidade de população da primeira carta é: %d\n",populacao2);
     
     return 0;
 }
-

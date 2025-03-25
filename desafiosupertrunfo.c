@@ -2,11 +2,14 @@
 
 int main(){
 
+    //coloquei todas as variaveis juntas nos formatos por achar mais facil.
     char estado1, estado2;
     int pontosturisticos1, populacao1,pontosturisticos2, populacao2;
     float area1, PIB1, area2, PIB2;
     char cidade1[50], codigo1[50], cidade2[50], codigo2[50];
 
+
+    // as cartas tem como estados so uma letra
     printf("digite a letra da primeira carta:\n");
     scanf(" %c", &estado1);
 

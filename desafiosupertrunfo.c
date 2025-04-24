@@ -6,15 +6,16 @@ int main(){
     char estado1, estado2;
     int pontosturisticos1, populacao1,pontosturisticos2, populacao2;
     float area1, PIB1, area2, PIB2;
-    char cidade1[50], codigo1[50], cidade2[50], codigo2[50];
+    char cidade1[20], codigo1[20], cidade2[20], codigo2[20];
 
 
     // as cartas tem como estados so uma letra
+    //carta 01
     printf("digite a letra da primeira carta:\n");
     scanf(" %c", &estado1);
 
     printf("digite o codigo da primeira carta:\n");
-    scanf(" %s", &codigo1);
+    scanf("%s", &codigo1);
 
     printf("digite a cidade da primeira carta:\n");
     scanf("%s", &cidade1);
@@ -31,8 +32,8 @@ int main(){
     printf("numeros de pontos turisticos da primeira carta:\n");
     scanf("%d", &pontosturisticos1); 
 
-
-    printf("escreva a letra da segunda carta:\n");
+   //carta 02
+    printf("\nescreva a letra da segunda carta:\n");
     scanf(" %c", &estado2);
 
     printf("digite o codigo da segunda carta:\n");
@@ -53,7 +54,7 @@ int main(){
     printf("numeros de pontos turisticos da segunda carta:\n");
     scanf("%d", &pontosturisticos2);
 
-
+    // as informaçoes da carta 01
     printf("Carta 01\n");
     printf("estado: %c\n", estado1);
     printf("codigo: %s\n",codigo1);
@@ -63,8 +64,8 @@ int main(){
     printf("PIB: %.2f bilhões de reais\n", PIB1);
     printf("número de pontos turisticos: %d\n", pontosturisticos1); 
     
-    
-    printf("Carta 02\n");
+    // as informaçoes da carta 02
+    printf("\nCarta 02\n");
     printf("estado: %c\n", estado2);
     printf("codigo: %s\n", codigo2);
     printf("cidade: %s\n", cidade2);
